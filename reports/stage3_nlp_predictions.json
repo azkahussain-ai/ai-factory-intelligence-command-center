@@ -1,0 +1,394 @@
+[
+  {
+    "machine_id": "M-01",
+    "timestamp": "2026-05-02 13:00:00",
+    "split": "train",
+    "true_incident_type": "Scheduled",
+    "nlp_prediction": "Scheduled",
+    "nlp_confidence": 0.6882036986621867
+  },
+  {
+    "machine_id": "M-01",
+    "timestamp": "2026-05-22 10:00:00",
+    "split": "train",
+    "true_incident_type": "Scheduled",
+    "nlp_prediction": "Scheduled",
+    "nlp_confidence": 0.6882036986621867
+  },
+  {
+    "machine_id": "M-01",
+    "timestamp": "2026-05-23 12:00:00",
+    "split": "train",
+    "true_incident_type": "Electrical",
+    "nlp_prediction": "Electrical",
+    "nlp_confidence": 0.7026509716210905
+  },
+  {
+    "machine_id": "M-01",
+    "timestamp": "2026-05-24 08:00:00",
+    "split": "train",
+    "true_incident_type": "Scheduled",
+    "nlp_prediction": "Scheduled",
+    "nlp_confidence": 0.6882036986621867
+  },
+  {
+    "machine_id": "M-01",
+    "timestamp": "2026-05-30 11:00:00",
+    "split": "train",
+    "true_incident_type": "Scheduled",
+    "nlp_prediction": "Scheduled",
+    "nlp_confidence": 0.6882036986621867
+  },
+  {
+    "machine_id": "M-02",
+    "timestamp": "2026-05-03 10:00:00",
+    "split": "train",
+    "true_incident_type": "Scheduled",
+    "nlp_prediction": "Scheduled",
+    "nlp_confidence": 0.6174724729939316
+  },
+  {
+    "machine_id": "M-02",
+    "timestamp": "2026-05-10 15:00:00",
+    "split": "train",
+    "true_incident_type": "Mechanical",
+    "nlp_prediction": "Mechanical",
+    "nlp_confidence": 0.688219706262374
+  },
+  {
+    "machine_id": "M-02",
+    "timestamp": "2026-05-31 07:00:00",
+    "split": "train",
+    "true_incident_type": "Mechanical",
+    "nlp_prediction": "Mechanical",
+    "nlp_confidence": 0.6840819159200947
+  },
+  {
+    "machine_id": "M-03",
+    "timestamp": "2026-05-04 07:00:00",
+    "split": "train",
+    "true_incident_type": "Scheduled",
+    "nlp_prediction": "Scheduled",
+    "nlp_confidence": 0.6882036986621867
+  },
+  {
+    "machine_id": "M-03",
+    "timestamp": "2026-05-06 11:00:00",
+    "split": "train",
+    "true_incident_type": "Scheduled",
+    "nlp_prediction": "Scheduled",
+    "nlp_confidence": 0.6882036986621867
+  },
+  {
+    "machine_id": "M-03",
+    "timestamp": "2026-05-08 08:00:00",
+    "split": "train",
+    "true_incident_type": "Scheduled",
+    "nlp_prediction": "Scheduled",
+    "nlp_confidence": 0.6882036986621867
+  },
+  {
+    "machine_id": "M-03",
+    "timestamp": "2026-05-27 08:00:00",
+    "split": "train",
+    "true_incident_type": "Electrical",
+    "nlp_prediction": "Electrical",
+    "nlp_confidence": 0.7026509716210907
+  },
+  {
+    "machine_id": "M-03",
+    "timestamp": "2026-06-05 07:00:00",
+    "split": "train",
+    "true_incident_type": "Scheduled",
+    "nlp_prediction": "Scheduled",
+    "nlp_confidence": 0.6882036986621867
+  },
+  {
+    "machine_id": "M-04",
+    "timestamp": "2026-05-07 15:00:00",
+    "split": "train",
+    "true_incident_type": "Mechanical",
+    "nlp_prediction": "Mechanical",
+    "nlp_confidence": 0.6688414501433457
+  },
+  {
+    "machine_id": "M-04",
+    "timestamp": "2026-05-24 15:00:00",
+    "split": "train",
+    "true_incident_type": "Scheduled",
+    "nlp_prediction": "Scheduled",
+    "nlp_confidence": 0.6170221921150939
+  },
+  {
+    "machine_id": "M-05",
+    "timestamp": "2026-05-05 15:00:00",
+    "split": "train",
+    "true_incident_type": "Scheduled",
+    "nlp_prediction": "Scheduled",
+    "nlp_confidence": 0.6869588509252645
+  },
+  {
+    "machine_id": "M-05",
+    "timestamp": "2026-05-07 14:00:00",
+    "split": "train",
+    "true_incident_type": "Scheduled",
+    "nlp_prediction": "Scheduled",
+    "nlp_confidence": 0.6869588509252645
+  },
+  {
+    "machine_id": "M-05",
+    "timestamp": "2026-05-09 14:00:00",
+    "split": "train",
+    "true_incident_type": "Quality",
+    "nlp_prediction": "Quality",
+    "nlp_confidence": 0.7215372666225546
+  },
+  {
+    "machine_id": "M-05",
+    "timestamp": "2026-06-04 06:00:00",
+    "split": "train",
+    "true_incident_type": "Scheduled",
+    "nlp_prediction": "Scheduled",
+    "nlp_confidence": 0.6869588509252645
+  },
+  {
+    "machine_id": "M-05",
+    "timestamp": "2026-06-10 17:00:00",
+    "split": "train",
+    "true_incident_type": "Scheduled",
+    "nlp_prediction": "Scheduled",
+    "nlp_confidence": 0.6869588509252645
+  },
+  {
+    "machine_id": "M-06",
+    "timestamp": "2026-05-01 10:00:00",
+    "split": "train",
+    "true_incident_type": "Scheduled",
+    "nlp_prediction": "Scheduled",
+    "nlp_confidence": 0.6718745057082178
+  },
+  {
+    "machine_id": "M-06",
+    "timestamp": "2026-05-14 12:00:00",
+    "split": "train",
+    "true_incident_type": "Scheduled",
+    "nlp_prediction": "Scheduled",
+    "nlp_confidence": 0.6718745057082178
+  },
+  {
+    "machine_id": "M-06",
+    "timestamp": "2026-05-16 13:00:00",
+    "split": "train",
+    "true_incident_type": "Electrical",
+    "nlp_prediction": "Electrical",
+    "nlp_confidence": 0.7026796739995269
+  },
+  {
+    "machine_id": "M-06",
+    "timestamp": "2026-05-27 14:00:00",
+    "split": "train",
+    "true_incident_type": "Scheduled",
+    "nlp_prediction": "Scheduled",
+    "nlp_confidence": 0.6718745057082178
+  },
+  {
+    "machine_id": "M-02",
+    "timestamp": "2026-06-20 17:00:00",
+    "split": "validation",
+    "true_incident_type": "Scheduled",
+    "nlp_prediction": "Scheduled",
+    "nlp_confidence": 0.6174724729939316
+  },
+  {
+    "machine_id": "M-02",
+    "timestamp": "2026-06-24 09:00:00",
+    "split": "validation",
+    "true_incident_type": "Scheduled",
+    "nlp_prediction": "Scheduled",
+    "nlp_confidence": 0.6174724729939316
+  },
+  {
+    "machine_id": "M-02",
+    "timestamp": "2026-07-01 19:00:00",
+    "split": "validation",
+    "true_incident_type": "Scheduled",
+    "nlp_prediction": "Scheduled",
+    "nlp_confidence": 0.6174724729939316
+  },
+  {
+    "machine_id": "M-02",
+    "timestamp": "2026-07-03 14:00:00",
+    "split": "validation",
+    "true_incident_type": "Scheduled",
+    "nlp_prediction": "Scheduled",
+    "nlp_confidence": 0.6174724729939316
+  },
+  {
+    "machine_id": "M-03",
+    "timestamp": "2026-06-22 09:00:00",
+    "split": "validation",
+    "true_incident_type": "Quality",
+    "nlp_prediction": "Quality",
+    "nlp_confidence": 0.694221925534617
+  },
+  {
+    "machine_id": "M-04",
+    "timestamp": "2026-06-29 17:00:00",
+    "split": "validation",
+    "true_incident_type": "Scheduled",
+    "nlp_prediction": "Scheduled",
+    "nlp_confidence": 0.6170221921150939
+  },
+  {
+    "machine_id": "M-04",
+    "timestamp": "2026-06-30 15:00:00",
+    "split": "validation",
+    "true_incident_type": "Mechanical",
+    "nlp_prediction": "Mechanical",
+    "nlp_confidence": 0.6634567372002447
+  },
+  {
+    "machine_id": "M-04",
+    "timestamp": "2026-07-01 13:00:00",
+    "split": "validation",
+    "true_incident_type": "Scheduled",
+    "nlp_prediction": "Scheduled",
+    "nlp_confidence": 0.6170221921150939
+  },
+  {
+    "machine_id": "M-05",
+    "timestamp": "2026-06-27 13:00:00",
+    "split": "validation",
+    "true_incident_type": "Mechanical",
+    "nlp_prediction": "Mechanical",
+    "nlp_confidence": 0.6422200417625501
+  },
+  {
+    "machine_id": "M-01",
+    "timestamp": "2026-07-14 13:00:00",
+    "split": "test",
+    "true_incident_type": "Scheduled",
+    "nlp_prediction": "Scheduled",
+    "nlp_confidence": 0.6882036986621867
+  },
+  {
+    "machine_id": "M-01",
+    "timestamp": "2026-07-22 18:00:00",
+    "split": "test",
+    "true_incident_type": "Mechanical",
+    "nlp_prediction": "Mechanical",
+    "nlp_confidence": 0.6475830793199037
+  },
+  {
+    "machine_id": "M-02",
+    "timestamp": "2026-07-08 16:00:00",
+    "split": "test",
+    "true_incident_type": "Electrical",
+    "nlp_prediction": "Electrical",
+    "nlp_confidence": 0.6809356856980499
+  },
+  {
+    "machine_id": "M-02",
+    "timestamp": "2026-07-19 19:00:00",
+    "split": "test",
+    "true_incident_type": "Scheduled",
+    "nlp_prediction": "Scheduled",
+    "nlp_confidence": 0.6174724729939316
+  },
+  {
+    "machine_id": "M-03",
+    "timestamp": "2026-07-06 14:00:00",
+    "split": "test",
+    "true_incident_type": "Mechanical",
+    "nlp_prediction": "Mechanical",
+    "nlp_confidence": 0.6475830793199037
+  },
+  {
+    "machine_id": "M-03",
+    "timestamp": "2026-07-10 17:00:00",
+    "split": "test",
+    "true_incident_type": "Scheduled",
+    "nlp_prediction": "Scheduled",
+    "nlp_confidence": 0.6882036986621867
+  },
+  {
+    "machine_id": "M-03",
+    "timestamp": "2026-07-17 06:00:00",
+    "split": "test",
+    "true_incident_type": "Scheduled",
+    "nlp_prediction": "Scheduled",
+    "nlp_confidence": 0.6882036986621867
+  },
+  {
+    "machine_id": "M-04",
+    "timestamp": "2026-07-21 10:00:00",
+    "split": "test",
+    "true_incident_type": "Scheduled",
+    "nlp_prediction": "Scheduled",
+    "nlp_confidence": 0.6170221921150939
+  },
+  {
+    "machine_id": "M-04",
+    "timestamp": "2026-07-24 18:00:00",
+    "split": "test",
+    "true_incident_type": "Scheduled",
+    "nlp_prediction": "Scheduled",
+    "nlp_confidence": 0.6170221921150939
+  },
+  {
+    "machine_id": "M-04",
+    "timestamp": "2026-07-28 17:00:00",
+    "split": "test",
+    "true_incident_type": "Scheduled",
+    "nlp_prediction": "Scheduled",
+    "nlp_confidence": 0.6170221921150939
+  },
+  {
+    "machine_id": "M-05",
+    "timestamp": "2026-07-11 17:00:00",
+    "split": "test",
+    "true_incident_type": "Scheduled",
+    "nlp_prediction": "Scheduled",
+    "nlp_confidence": 0.6869588509252644
+  },
+  {
+    "machine_id": "M-05",
+    "timestamp": "2026-07-20 18:00:00",
+    "split": "test",
+    "true_incident_type": "Mechanical",
+    "nlp_prediction": "Mechanical",
+    "nlp_confidence": 0.6422200417625501
+  },
+  {
+    "machine_id": "M-06",
+    "timestamp": "2026-07-17 07:00:00",
+    "split": "test",
+    "true_incident_type": "Mechanical",
+    "nlp_prediction": "Mechanical",
+    "nlp_confidence": 0.6415349990956326
+  },
+  {
+    "machine_id": "M-06",
+    "timestamp": "2026-07-18 15:00:00",
+    "split": "test",
+    "true_incident_type": "Scheduled",
+    "nlp_prediction": "Scheduled",
+    "nlp_confidence": 0.6718745057082178
+  },
+  {
+    "machine_id": "M-06",
+    "timestamp": "2026-07-26 16:00:00",
+    "split": "test",
+    "true_incident_type": "Mechanical",
+    "nlp_prediction": "Mechanical",
+    "nlp_confidence": 0.6415349990956326
+  },
+  {
+    "machine_id": "M-06",
+    "timestamp": "2026-07-29 12:00:00",
+    "split": "test",
+    "true_incident_type": "Scheduled",
+    "nlp_prediction": "Scheduled",
+    "nlp_confidence": 0.6718745057082178
+  }
+]

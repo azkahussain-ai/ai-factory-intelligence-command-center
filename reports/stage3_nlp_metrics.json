@@ -1,0 +1,120 @@
+{
+  "train": {
+    "n_samples": 24,
+    "accuracy": 1.0,
+    "precision_macro": 1.0,
+    "recall_macro": 1.0,
+    "f1_macro": 1.0,
+    "confusion_matrix": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        17
+      ]
+    ],
+    "confusion_matrix_labels": [
+      "Electrical",
+      "Mechanical",
+      "Quality",
+      "Scheduled"
+    ]
+  },
+  "validation": {
+    "n_samples": 9,
+    "accuracy": 1.0,
+    "precision_macro": 1.0,
+    "recall_macro": 1.0,
+    "f1_macro": 1.0,
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        6
+      ]
+    ],
+    "confusion_matrix_labels": [
+      "Electrical",
+      "Mechanical",
+      "Quality",
+      "Scheduled"
+    ]
+  },
+  "test": {
+    "n_samples": 16,
+    "accuracy": 1.0,
+    "precision_macro": 1.0,
+    "recall_macro": 1.0,
+    "f1_macro": 1.0,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        5,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        10
+      ]
+    ],
+    "confusion_matrix_labels": [
+      "Electrical",
+      "Mechanical",
+      "Quality",
+      "Scheduled"
+    ]
+  },
+  "note": "Only 49 maintenance records exist in total (train=24/val=9/test=16); some classes (e.g. Quality, Electrical) have very few examples per split, so per-class precision/recall for those classes is high-variance. Macro-averaged metrics are reported since classes are imbalanced."
+}

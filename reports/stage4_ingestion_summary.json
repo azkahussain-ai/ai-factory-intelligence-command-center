@@ -1,0 +1,9 @@
+{
+  "documents_ingested": [
+    "machine_operation_manual.pdf",
+    "preventive_maintenance_sop.pdf",
+    "safety_emergency_guidelines.pdf"
+  ],
+  "pages_extracted": 5,
+  "chunks_created": 19
+}

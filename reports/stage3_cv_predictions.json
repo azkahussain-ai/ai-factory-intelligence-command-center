@@ -1,0 +1,802 @@
+[
+  {
+    "image_path": "data/synthetic/images/normal_004.png",
+    "machine_id": "M-05",
+    "split": "train",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.9926039304761382
+  },
+  {
+    "image_path": "data/synthetic/images/normal_005.png",
+    "machine_id": "M-06",
+    "split": "train",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.9980029515765563
+  },
+  {
+    "image_path": "data/synthetic/images/normal_007.png",
+    "machine_id": "M-02",
+    "split": "train",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.9997939308656179
+  },
+  {
+    "image_path": "data/synthetic/images/normal_009.png",
+    "machine_id": "M-04",
+    "split": "train",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.9944620111523934
+  },
+  {
+    "image_path": "data/synthetic/images/normal_015.png",
+    "machine_id": "M-04",
+    "split": "train",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.9999699002436503
+  },
+  {
+    "image_path": "data/synthetic/images/normal_016.png",
+    "machine_id": "M-05",
+    "split": "train",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.9626321510480406
+  },
+  {
+    "image_path": "data/synthetic/images/normal_017.png",
+    "machine_id": "M-06",
+    "split": "train",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.9964797653582655
+  },
+  {
+    "image_path": "data/synthetic/images/normal_018.png",
+    "machine_id": "M-01",
+    "split": "train",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.9991053199924435
+  },
+  {
+    "image_path": "data/synthetic/images/normal_020.png",
+    "machine_id": "M-03",
+    "split": "train",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.9048517363382584
+  },
+  {
+    "image_path": "data/synthetic/images/normal_021.png",
+    "machine_id": "M-04",
+    "split": "train",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.9742231370570877
+  },
+  {
+    "image_path": "data/synthetic/images/normal_023.png",
+    "machine_id": "M-06",
+    "split": "train",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.9946861073673896
+  },
+  {
+    "image_path": "data/synthetic/images/normal_024.png",
+    "machine_id": "M-01",
+    "split": "train",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.9917619415177463
+  },
+  {
+    "image_path": "data/synthetic/images/normal_025.png",
+    "machine_id": "M-02",
+    "split": "train",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.9730001795113099
+  },
+  {
+    "image_path": "data/synthetic/images/normal_026.png",
+    "machine_id": "M-03",
+    "split": "train",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.9885523958085215
+  },
+  {
+    "image_path": "data/synthetic/images/normal_027.png",
+    "machine_id": "M-04",
+    "split": "train",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.9990987326611485
+  },
+  {
+    "image_path": "data/synthetic/images/normal_028.png",
+    "machine_id": "M-05",
+    "split": "train",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.9869130529132872
+  },
+  {
+    "image_path": "data/synthetic/images/normal_029.png",
+    "machine_id": "M-06",
+    "split": "train",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.9814484228095377
+  },
+  {
+    "image_path": "data/synthetic/images/normal_031.png",
+    "machine_id": "M-02",
+    "split": "train",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.974382013908544
+  },
+  {
+    "image_path": "data/synthetic/images/normal_032.png",
+    "machine_id": "M-03",
+    "split": "train",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.9960960126615951
+  },
+  {
+    "image_path": "data/synthetic/images/normal_034.png",
+    "machine_id": "M-05",
+    "split": "train",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.9921298318542001
+  },
+  {
+    "image_path": "data/synthetic/images/normal_037.png",
+    "machine_id": "M-02",
+    "split": "train",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.9797356742059101
+  },
+  {
+    "image_path": "data/synthetic/images/normal_038.png",
+    "machine_id": "M-03",
+    "split": "train",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.992011076323646
+  },
+  {
+    "image_path": "data/synthetic/images/normal_039.png",
+    "machine_id": "M-04",
+    "split": "train",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.9967504104910404
+  },
+  {
+    "image_path": "data/synthetic/images/normal_040.png",
+    "machine_id": "M-05",
+    "split": "train",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.9999970205299681
+  },
+  {
+    "image_path": "data/synthetic/images/normal_041.png",
+    "machine_id": "M-06",
+    "split": "train",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.9765640448382765
+  },
+  {
+    "image_path": "data/synthetic/images/normal_042.png",
+    "machine_id": "M-01",
+    "split": "train",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.9729738971102233
+  },
+  {
+    "image_path": "data/synthetic/images/normal_045.png",
+    "machine_id": "M-04",
+    "split": "train",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.9966874450279825
+  },
+  {
+    "image_path": "data/synthetic/images/normal_046.png",
+    "machine_id": "M-05",
+    "split": "train",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.9902963968158731
+  },
+  {
+    "image_path": "data/synthetic/images/normal_047.png",
+    "machine_id": "M-06",
+    "split": "train",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.9871393224441621
+  },
+  {
+    "image_path": "data/synthetic/images/normal_049.png",
+    "machine_id": "M-02",
+    "split": "train",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.9889655692691993
+  },
+  {
+    "image_path": "data/synthetic/images/defect_000.png",
+    "machine_id": "M-03",
+    "split": "train",
+    "true_label": "defect",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.995598905032816
+  },
+  {
+    "image_path": "data/synthetic/images/defect_002.png",
+    "machine_id": "M-05",
+    "split": "train",
+    "true_label": "defect",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.9974005088012753
+  },
+  {
+    "image_path": "data/synthetic/images/defect_004.png",
+    "machine_id": "M-01",
+    "split": "train",
+    "true_label": "defect",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.9996104820126896
+  },
+  {
+    "image_path": "data/synthetic/images/defect_006.png",
+    "machine_id": "M-03",
+    "split": "train",
+    "true_label": "defect",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.9992911355886457
+  },
+  {
+    "image_path": "data/synthetic/images/defect_008.png",
+    "machine_id": "M-05",
+    "split": "train",
+    "true_label": "defect",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.9996134625281095
+  },
+  {
+    "image_path": "data/synthetic/images/defect_009.png",
+    "machine_id": "M-06",
+    "split": "train",
+    "true_label": "defect",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.9966608214405362
+  },
+  {
+    "image_path": "data/synthetic/images/defect_011.png",
+    "machine_id": "M-02",
+    "split": "train",
+    "true_label": "defect",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.9973386940325033
+  },
+  {
+    "image_path": "data/synthetic/images/defect_013.png",
+    "machine_id": "M-04",
+    "split": "train",
+    "true_label": "defect",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.9964500381135035
+  },
+  {
+    "image_path": "data/synthetic/images/defect_014.png",
+    "machine_id": "M-05",
+    "split": "train",
+    "true_label": "defect",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.999257125071521
+  },
+  {
+    "image_path": "data/synthetic/images/defect_015.png",
+    "machine_id": "M-06",
+    "split": "train",
+    "true_label": "defect",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.9999992149171728
+  },
+  {
+    "image_path": "data/synthetic/images/defect_016.png",
+    "machine_id": "M-01",
+    "split": "train",
+    "true_label": "defect",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.9965360126757014
+  },
+  {
+    "image_path": "data/synthetic/images/defect_018.png",
+    "machine_id": "M-03",
+    "split": "train",
+    "true_label": "defect",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.9976991949592466
+  },
+  {
+    "image_path": "data/synthetic/images/defect_019.png",
+    "machine_id": "M-04",
+    "split": "train",
+    "true_label": "defect",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.9973510174851195
+  },
+  {
+    "image_path": "data/synthetic/images/defect_020.png",
+    "machine_id": "M-05",
+    "split": "train",
+    "true_label": "defect",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.9985903185790529
+  },
+  {
+    "image_path": "data/synthetic/images/defect_021.png",
+    "machine_id": "M-06",
+    "split": "train",
+    "true_label": "defect",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.9734552549594521
+  },
+  {
+    "image_path": "data/synthetic/images/defect_024.png",
+    "machine_id": "M-03",
+    "split": "train",
+    "true_label": "defect",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.999184514704439
+  },
+  {
+    "image_path": "data/synthetic/images/defect_025.png",
+    "machine_id": "M-04",
+    "split": "train",
+    "true_label": "defect",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.9993531093457361
+  },
+  {
+    "image_path": "data/synthetic/images/defect_027.png",
+    "machine_id": "M-06",
+    "split": "train",
+    "true_label": "defect",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.9982557475064917
+  },
+  {
+    "image_path": "data/synthetic/images/defect_028.png",
+    "machine_id": "M-01",
+    "split": "train",
+    "true_label": "defect",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.9875363802736433
+  },
+  {
+    "image_path": "data/synthetic/images/defect_030.png",
+    "machine_id": "M-03",
+    "split": "train",
+    "true_label": "defect",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.9976392194803271
+  },
+  {
+    "image_path": "data/synthetic/images/defect_033.png",
+    "machine_id": "M-06",
+    "split": "train",
+    "true_label": "defect",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.9939280043148649
+  },
+  {
+    "image_path": "data/synthetic/images/defect_034.png",
+    "machine_id": "M-01",
+    "split": "train",
+    "true_label": "defect",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.9991354352672792
+  },
+  {
+    "image_path": "data/synthetic/images/defect_035.png",
+    "machine_id": "M-02",
+    "split": "train",
+    "true_label": "defect",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.9999593871041388
+  },
+  {
+    "image_path": "data/synthetic/images/defect_036.png",
+    "machine_id": "M-03",
+    "split": "train",
+    "true_label": "defect",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.9994722700950671
+  },
+  {
+    "image_path": "data/synthetic/images/defect_037.png",
+    "machine_id": "M-04",
+    "split": "train",
+    "true_label": "defect",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.999983355661104
+  },
+  {
+    "image_path": "data/synthetic/images/defect_038.png",
+    "machine_id": "M-05",
+    "split": "train",
+    "true_label": "defect",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.9917633149404576
+  },
+  {
+    "image_path": "data/synthetic/images/defect_043.png",
+    "machine_id": "M-04",
+    "split": "train",
+    "true_label": "defect",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.9992294369200178
+  },
+  {
+    "image_path": "data/synthetic/images/defect_046.png",
+    "machine_id": "M-01",
+    "split": "train",
+    "true_label": "defect",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.9999914819522788
+  },
+  {
+    "image_path": "data/synthetic/images/defect_047.png",
+    "machine_id": "M-02",
+    "split": "train",
+    "true_label": "defect",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.9992719650282295
+  },
+  {
+    "image_path": "data/synthetic/images/defect_048.png",
+    "machine_id": "M-03",
+    "split": "train",
+    "true_label": "defect",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.9880000202017766
+  },
+  {
+    "image_path": "data/synthetic/images/normal_003.png",
+    "machine_id": "M-04",
+    "split": "validation",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.9843156769106854
+  },
+  {
+    "image_path": "data/synthetic/images/normal_006.png",
+    "machine_id": "M-01",
+    "split": "validation",
+    "true_label": "normal",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.9989486581651439
+  },
+  {
+    "image_path": "data/synthetic/images/normal_010.png",
+    "machine_id": "M-05",
+    "split": "validation",
+    "true_label": "normal",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.5324653500982338
+  },
+  {
+    "image_path": "data/synthetic/images/normal_011.png",
+    "machine_id": "M-06",
+    "split": "validation",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.9898720075288115
+  },
+  {
+    "image_path": "data/synthetic/images/normal_019.png",
+    "machine_id": "M-02",
+    "split": "validation",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.970722024139989
+  },
+  {
+    "image_path": "data/synthetic/images/normal_022.png",
+    "machine_id": "M-05",
+    "split": "validation",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.8492896494610156
+  },
+  {
+    "image_path": "data/synthetic/images/normal_030.png",
+    "machine_id": "M-01",
+    "split": "validation",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.99891878505926
+  },
+  {
+    "image_path": "data/synthetic/images/normal_035.png",
+    "machine_id": "M-06",
+    "split": "validation",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.992897242344717
+  },
+  {
+    "image_path": "data/synthetic/images/normal_043.png",
+    "machine_id": "M-02",
+    "split": "validation",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.9895518410886358
+  },
+  {
+    "image_path": "data/synthetic/images/normal_044.png",
+    "machine_id": "M-03",
+    "split": "validation",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.9940097492577633
+  },
+  {
+    "image_path": "data/synthetic/images/defect_003.png",
+    "machine_id": "M-06",
+    "split": "validation",
+    "true_label": "defect",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.9993355307131386
+  },
+  {
+    "image_path": "data/synthetic/images/defect_005.png",
+    "machine_id": "M-02",
+    "split": "validation",
+    "true_label": "defect",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.6993408271958896
+  },
+  {
+    "image_path": "data/synthetic/images/defect_007.png",
+    "machine_id": "M-04",
+    "split": "validation",
+    "true_label": "defect",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.997811761190527
+  },
+  {
+    "image_path": "data/synthetic/images/defect_010.png",
+    "machine_id": "M-01",
+    "split": "validation",
+    "true_label": "defect",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.8592909544959582
+  },
+  {
+    "image_path": "data/synthetic/images/defect_022.png",
+    "machine_id": "M-01",
+    "split": "validation",
+    "true_label": "defect",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.996544737363249
+  },
+  {
+    "image_path": "data/synthetic/images/defect_023.png",
+    "machine_id": "M-02",
+    "split": "validation",
+    "true_label": "defect",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.9998542361332371
+  },
+  {
+    "image_path": "data/synthetic/images/defect_026.png",
+    "machine_id": "M-05",
+    "split": "validation",
+    "true_label": "defect",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.9348918642815216
+  },
+  {
+    "image_path": "data/synthetic/images/defect_032.png",
+    "machine_id": "M-05",
+    "split": "validation",
+    "true_label": "defect",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.9918547551181865
+  },
+  {
+    "image_path": "data/synthetic/images/defect_044.png",
+    "machine_id": "M-05",
+    "split": "validation",
+    "true_label": "defect",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.9771627400840421
+  },
+  {
+    "image_path": "data/synthetic/images/defect_045.png",
+    "machine_id": "M-06",
+    "split": "validation",
+    "true_label": "defect",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.9982359742989242
+  },
+  {
+    "image_path": "data/synthetic/images/normal_000.png",
+    "machine_id": "M-01",
+    "split": "test",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.9934918729386868
+  },
+  {
+    "image_path": "data/synthetic/images/normal_001.png",
+    "machine_id": "M-02",
+    "split": "test",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.7054931271782345
+  },
+  {
+    "image_path": "data/synthetic/images/normal_002.png",
+    "machine_id": "M-03",
+    "split": "test",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.9999810089925677
+  },
+  {
+    "image_path": "data/synthetic/images/normal_008.png",
+    "machine_id": "M-03",
+    "split": "test",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.9850218666114163
+  },
+  {
+    "image_path": "data/synthetic/images/normal_012.png",
+    "machine_id": "M-01",
+    "split": "test",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.9995634431542224
+  },
+  {
+    "image_path": "data/synthetic/images/normal_013.png",
+    "machine_id": "M-02",
+    "split": "test",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.9428679937829707
+  },
+  {
+    "image_path": "data/synthetic/images/normal_014.png",
+    "machine_id": "M-03",
+    "split": "test",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.9681631903384654
+  },
+  {
+    "image_path": "data/synthetic/images/normal_033.png",
+    "machine_id": "M-04",
+    "split": "test",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.9890298377546515
+  },
+  {
+    "image_path": "data/synthetic/images/normal_036.png",
+    "machine_id": "M-01",
+    "split": "test",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.6765333232722675
+  },
+  {
+    "image_path": "data/synthetic/images/normal_048.png",
+    "machine_id": "M-01",
+    "split": "test",
+    "true_label": "normal",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.7596798105025813
+  },
+  {
+    "image_path": "data/synthetic/images/defect_001.png",
+    "machine_id": "M-04",
+    "split": "test",
+    "true_label": "defect",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.9940771310814808
+  },
+  {
+    "image_path": "data/synthetic/images/defect_012.png",
+    "machine_id": "M-03",
+    "split": "test",
+    "true_label": "defect",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.6272266492670346
+  },
+  {
+    "image_path": "data/synthetic/images/defect_017.png",
+    "machine_id": "M-02",
+    "split": "test",
+    "true_label": "defect",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.8201756929593148
+  },
+  {
+    "image_path": "data/synthetic/images/defect_029.png",
+    "machine_id": "M-02",
+    "split": "test",
+    "true_label": "defect",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.8511753917914914
+  },
+  {
+    "image_path": "data/synthetic/images/defect_031.png",
+    "machine_id": "M-04",
+    "split": "test",
+    "true_label": "defect",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.9484324361672775
+  },
+  {
+    "image_path": "data/synthetic/images/defect_039.png",
+    "machine_id": "M-06",
+    "split": "test",
+    "true_label": "defect",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.9880667743478003
+  },
+  {
+    "image_path": "data/synthetic/images/defect_040.png",
+    "machine_id": "M-01",
+    "split": "test",
+    "true_label": "defect",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.9402081797194686
+  },
+  {
+    "image_path": "data/synthetic/images/defect_041.png",
+    "machine_id": "M-02",
+    "split": "test",
+    "true_label": "defect",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.8592312256230888
+  },
+  {
+    "image_path": "data/synthetic/images/defect_042.png",
+    "machine_id": "M-03",
+    "split": "test",
+    "true_label": "defect",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.6980263817098847
+  },
+  {
+    "image_path": "data/synthetic/images/defect_049.png",
+    "machine_id": "M-04",
+    "split": "test",
+    "true_label": "defect",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.9899109765402845
+  }
+]

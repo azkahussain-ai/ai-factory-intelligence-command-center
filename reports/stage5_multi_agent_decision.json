@@ -1,0 +1,201 @@
+{
+  "factory_context": {
+    "machine_id": "M-01",
+    "generated_at": "2026-09-04T21:58:34"
+  },
+  "vision_result": {
+    "status": "ok",
+    "machine_id": "M-01",
+    "defect_detected": true,
+    "defect_type": null,
+    "severity": null,
+    "confidence": 0.9402,
+    "source_image": "data/synthetic/images/defect_040.png",
+    "source": "stage3_structured_output.json (existing Stage III CV result, not re-inferred)"
+  },
+  "predictive_maintenance_result": {
+    "status": "ok",
+    "machine_id": "M-01",
+    "failure_probability": 0.0,
+    "predicted_failure": 0,
+    "risk_level": "LOW",
+    "model_name": "gru",
+    "decision_threshold": 0.999,
+    "important_signals": [
+      "load_pct_mean",
+      "pressure_bar_mean",
+      "has_recent_maintenance"
+    ],
+    "window_shifts_used": 5,
+    "source": "models/gru_model.npz (Stage II's selected-best model, inference only)"
+  },
+  "nlp_result": {
+    "status": "ok",
+    "machine_id": "M-01",
+    "incident_type": "Mechanical",
+    "confidence": 0.6476,
+    "source_timestamp": "2026-07-22 18:00:00",
+    "source": "stage3_structured_output.json (existing Stage III NLP result, not re-inferred)"
+  },
+  "xai_result": {
+    "machine_id": "M-01",
+    "prediction": {
+      "probability": 0.0,
+      "predicted_failure": 0,
+      "risk_level": "LOW"
+    },
+    "feature_explanations": [
+      {
+        "feature": "production_efficiency",
+        "value": 40.875,
+        "contribution": -1e-06,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "pressure_bar_mean",
+        "value": 5.526939569668984,
+        "contribution": 0.0,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "temperature_k_mean",
+        "value": 300.7761615455339,
+        "contribution": 0.0,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "rotational_speed_rpm_mean",
+        "value": 660.05235708431,
+        "contribution": -0.0,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "has_recent_maintenance",
+        "value": 1.0,
+        "contribution": 0.0,
+        "direction": "increases_risk"
+      }
+    ],
+    "top_features": [
+      "production_efficiency",
+      "pressure_bar_mean",
+      "temperature_k_mean",
+      "rotational_speed_rpm_mean",
+      "has_recent_maintenance"
+    ],
+    "vision_explanation": {
+      "available": true,
+      "predicted_class": "defect",
+      "confidence": 0.9402,
+      "heatmap_path": "reports/xai/M-01_gradcam_heatmap.png",
+      "overlay_path": "reports/xai/M-01_gradcam_overlay.png"
+    },
+    "human_summary": "Predicted risk: LOW (failure probability 0.0%). The prediction is pushed toward failure mainly by: pressure bar mean, temperature k mean, has recent maintenance. Pushing toward normal operation: production efficiency, rotational speed rpm mean. The vision inspection also flagged a defect (confidence 94.0%); see the Grad-CAM overlay for the image region that drove this.",
+    "method": {
+      "tabular": "permutation_importance",
+      "vision": "Grad-CAM (manual backprop to the model's single conv layer - no autodiff framework available for this hand-rolled NumPy CNN)"
+    }
+  },
+  "rag_result": {
+    "status": "ok",
+    "question": "What is the recommended procedure when a product defect is detected during inspection?",
+    "answer": "Based on preventive_maintenance_sop.pdf (Section 2: Response to a WARNING-level reading), page 1: Preventive Maintenance SOP This SOP defines the routine maintenance schedule and the required operator response when a machine sensor reading crosses a WARNING or DANGER threshold as defined in the Machine Operation Manual. Section 1: Routine Maintenance Schedule Every machine in the fleet receives a scheduled inspection every 168 operating hours (approximately weekly under continuous 3-shift operation). The inspection covers lubrication, belt/bearing wear, sensor calibration, and a visual check for leaks or loose fasteners. Inspection results are logged in the maintenance record with machine ID, timestamp, and inspector ID. Section Additionally, preventive_maintenance_sop.pdf (Section 3: Response to a DANGER-level Reading), page 1 states: immediately to lower mechanical stress, (2) schedule the machine for preventive maintenance within the current shift rather than waiting for the next scheduled inspection, (3) do not wait for a full failure before intervening \u2014 a sustained DANGER-level vibration reading is a strong precursor to bearing or shaft failure, and (4) record the event, the action taken, and the responsible supervisor in the maintenance log. If the DANGER-level reading is accompanied by unusual noise, visible smoke, or a burning smell, follow the emergency stop procedure in the Safety & Emergency Additionally, preventive_maintenance_sop.pdf (Section 4: Escalation), page 1 states: accompanied by unusual noise, visible smoke, or a burning smell, follow the emergency stop procedure in the Safety & Emergency Guidelines document instead of continuing to operate the machine at reduced load. Section 4: Escalation Any DANGER-level event that recurs on the same machine within 72 hours after a maintenance action must be escalated to the maintenance engineering team for root-cause investigation, rather than repeating the same corrective action. Additionally, preventive_maintenance_sop.pdf (Section 2: Response to a WARNING-level reading), page 1 states: leaks or loose fasteners. Inspection results are logged in the maintenance record with machine ID, timestamp, and inspector ID. Section 2: Response to a WARNING-level reading If any sensor channel (temperature, vibration, pressure, or torque) reaches its WARNING threshold and remains there for more than one full shift, the operator must: (1) log the reading and machine ID in the maintenance system, (2) increase monitoring frequency for that machine to once per hour, and (3) notify the shift supervisor. The machine may continue running under increased monitoring; a WARNING reading",
+    "grounded": true,
+    "used_live_llm": false,
+    "sources": [
+      {
+        "document": "preventive_maintenance_sop.pdf",
+        "page": 1,
+        "section": "Section 2: Response to a WARNING-level reading",
+        "evidence": "Preventive Maintenance SOP This SOP defines the routine maintenance schedule and the required operator response when a machine sensor reading crosses a WARNING or DANGER threshold as defined in the Machine Operation Manual. Section 1: Routine Maintenance Schedule Every machine in the fleet receives a scheduled inspection every 168 operating hours (approximately weekly under continuous 3-shift operation). The inspection covers lubrication, belt/bearing wear, sensor calibration, and a visual check for leaks or loose fasteners. Inspection results are logged in the maintenance record with machine ID, timestamp, and inspector ID. Section",
+        "score": 0.1573
+      },
+      {
+        "document": "preventive_maintenance_sop.pdf",
+        "page": 1,
+        "section": "Section 3: Response to a DANGER-level Reading",
+        "evidence": "immediately to lower mechanical stress, (2) schedule the machine for preventive maintenance within the current shift rather than waiting for the next scheduled inspection, (3) do not wait for a full failure before intervening \u2014 a sustained DANGER-level vibration reading is a strong precursor to bearing or shaft failure, and (4) record the event, the action taken, and the responsible supervisor in the maintenance log. If the DANGER-level reading is accompanied by unusual noise, visible smoke, or a burning smell, follow the emergency stop procedure in the Safety & Emergency",
+        "score": 0.1315
+      },
+      {
+        "document": "preventive_maintenance_sop.pdf",
+        "page": 1,
+        "section": "Section 4: Escalation",
+        "evidence": "accompanied by unusual noise, visible smoke, or a burning smell, follow the emergency stop procedure in the Safety & Emergency Guidelines document instead of continuing to operate the machine at reduced load. Section 4: Escalation Any DANGER-level event that recurs on the same machine within 72 hours after a maintenance action must be escalated to the maintenance engineering team for root-cause investigation, rather than repeating the same corrective action.",
+        "score": 0.0684
+      },
+      {
+        "document": "preventive_maintenance_sop.pdf",
+        "page": 1,
+        "section": "Section 2: Response to a WARNING-level reading",
+        "evidence": "leaks or loose fasteners. Inspection results are logged in the maintenance record with machine ID, timestamp, and inspector ID. Section 2: Response to a WARNING-level reading If any sensor channel (temperature, vibration, pressure, or torque) reaches its WARNING threshold and remains there for more than one full shift, the operator must: (1) log the reading and machine ID in the maintenance system, (2) increase monitoring frequency for that machine to once per hour, and (3) notify the shift supervisor. The machine may continue running under increased monitoring; a WARNING reading",
+        "score": 0.0629
+      }
+    ],
+    "source": "src/rag/rag_pipeline.py (existing Stage IV RAG pipeline)"
+  },
+  "decision": {
+    "status": "ok",
+    "recommendation": "Flag the current production batch for quality review and inspect tooling. Follow the retrieved SOP guidance for the specific steps and thresholds.",
+    "priority": "ELEVATED",
+    "reasoning": [
+      "Predictive maintenance model (gru) estimates a 0.0% failure probability for the next shift (risk level: LOW), driven most by: load_pct_mean, pressure_bar_mean, has_recent_maintenance.",
+      "Vision inspection flagged a defect (confidence 94.0%); defect type/severity were not classified by the Stage III model.",
+      "Most recent maintenance note classified as 'Mechanical' (confidence 64.8%).",
+      "Relevant SOP evidence retrieved from: preventive_maintenance_sop.pdf.",
+      "Explainability analysis (permutation_importance) attributes this prediction most to: production efficiency, pressure bar mean, temperature k mean."
+    ],
+    "narrative": null,
+    "used_live_llm": false
+  },
+  "agent_trace": [
+    {
+      "agent": "vision_agent",
+      "status": "ok",
+      "input_summary": "machine_id=M-01",
+      "output_summary": "machine_id=M-01, defect_detected=True, defect_type=None, severity=None",
+      "error": null,
+      "timestamp": "2026-09-04T21:58:34"
+    },
+    {
+      "agent": "predictive_maintenance_agent",
+      "status": "ok",
+      "input_summary": "machine_id=M-01",
+      "output_summary": "machine_id=M-01, failure_probability=0.0, predicted_failure=0, risk_level=LOW",
+      "error": null,
+      "timestamp": "2026-09-04T21:58:34"
+    },
+    {
+      "agent": "nlp_info",
+      "status": "ok",
+      "input_summary": "machine_id=M-01",
+      "output_summary": "machine_id=M-01, incident_type=Mechanical, confidence=0.6476, source_timestamp=2026-07-22 18:00:00",
+      "error": null,
+      "timestamp": "2026-09-04T21:58:34"
+    },
+    {
+      "agent": "xai_layer",
+      "status": "ok",
+      "input_summary": "machine_id=M-01",
+      "output_summary": "top_features=['production_efficiency', 'pressure_bar_mean', 'temperature_k_mean', 'rotational_speed_rpm_mean', 'has_recent_maintenance'], vision_available=True",
+      "error": null,
+      "timestamp": "2026-09-04T21:58:34"
+    },
+    {
+      "agent": "knowledge_rag_agent",
+      "status": "ok",
+      "input_summary": "question='What is the recommended procedure when a product defect is detected during inspection?'",
+      "output_summary": "question=What is the recommended procedure when a product defect is detected during inspection?, answer=Based on preventive_maintenance_sop.pdf (Section 2: Response to a WARNING-level reading), page 1: Preventive Maintenance SOP This SOP defines the routine maintenance schedule and the required operator response when a machine sensor reading crosses a WARNING or DANGER threshold as defined in the Machine Operation Manual. Section 1: Routine Maintenance Schedule Every machine in the fleet receives a scheduled inspection every 168 operating hours (approximately weekly under continuous 3-shift operation). The inspection covers lubrication, belt/bearing wear, sensor calibration, and a visual check for leaks or loose fasteners. Inspection results are logged in the maintenance record with machine ID, timestamp, and inspector ID. Section Additionally, preventive_maintenance_sop.pdf (Section 3: Response to a DANGER-level Reading), page 1 states: immediately to lower mechanical stress, (2) schedule the machine for preventive maintenance within the current shift rather than waiting for the next scheduled inspection, (3) do not wait for a full failure before intervening \u2014 a sustained DANGER-level vibration reading is a strong precursor to bearing or shaft failure, and (4) record the event, the action taken, and the responsible supervisor in the maintenance log. If the DANGER-level reading is accompanied by unusual noise, visible smoke, or a burning smell, follow the emergency stop procedure in the Safety & Emergency Additionally, preventive_maintenance_sop.pdf (Section 4: Escalation), page 1 states: accompanied by unusual noise, visible smoke, or a burning smell, follow the emergency stop procedure in the Safety & Emergency Guidelines document instead of continuing to operate the machine at reduced load. Section 4: Escalation Any DANGER-level event that recurs on the same machine within 72 hours after a maintenance action must be escalated to the maintenance engineering team for root-cause investigation, rather than repeating the same corrective action. Additionally, preventive_maintenance_sop.pdf (Section 2: Response to a WARNING-level reading), page 1 states: leaks or loose fasteners. Inspection results are logged in the maintenance record with machine ID, timestamp, and inspector ID. Section 2: Response to a WARNING-level reading If any sensor channel (temperature, vibration, pressure, or torque) reaches its WARNING threshold and remains there for more than one full shift, the operator must: (1) log the reading and machine ID in the maintenance system, (2) increase monitoring frequency for that machine to once per hour, and (3) notify the shift supervisor. The machine may continue running under increased monitoring; a WARNING reading, grounded=True, used_live_llm=False",
+      "error": null,
+      "timestamp": "2026-09-04T21:58:34"
+    },
+    {
+      "agent": "planning_decision_agent",
+      "status": "ok",
+      "input_summary": "vision+predictive_maintenance+nlp+rag results",
+      "output_summary": "priority=ELEVATED, recommendation=Flag the current production batch for quality review and inspect tooling. Follow...",
+      "error": null,
+      "timestamp": "2026-09-04T21:58:34"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "models_compared": [
+    "logistic_regression",
+    "random_forest",
+    "gradient_boosting",
+    "gru"
+  ],
+  "metric_summary": {
+    "logistic_regression": {
+      "validation": {
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8,
+        "roc_auc": 0.9375780274656679,
+        "pr_auc": 0.6855345911949685
+      },
+      "test": {
+        "precision": 0.75,
+        "recall": 1.0,
+        "f1": 0.8571428571428571,
+        "roc_auc": 1.0,
+        "pr_auc": 1.0
+      }
+    },
+    "random_forest": {
+      "validation": {
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8,
+        "roc_auc": 0.9950062421972534,
+        "pr_auc": 0.8095238095238095
+      },
+      "test": {
+        "precision": 0.8571428571428571,
+        "recall": 1.0,
+        "f1": 0.9230769230769231,
+        "roc_auc": 1.0,
+        "pr_auc": 1.0
+      }
+    },
+    "gradient_boosting": {
+      "validation": {
+        "precision": 0.011111111111111112,
+        "recall": 1.0,
+        "f1": 0.02197802197802198,
+        "roc_auc": 0.8358302122347065,
+        "pr_auc": 0.6704260651629073
+      },
+      "test": {
+        "precision": 0.013513513513513514,
+        "recall": 1.0,
+        "f1": 0.02666666666666667,
+        "roc_auc": 0.9185692541856926,
+        "pr_auc": 0.8356374807987712
+      }
+    },
+    "gru": {
+      "validation": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "roc_auc": 1.0,
+        "pr_auc": 1.0
+      },
+      "test": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "roc_auc": 1.0,
+        "pr_auc": 1.0
+      }
+    }
+  },
+  "best_model_by_validation_f1": "gru",
+  "note": "Positive class (failure_next_shift) is extremely rare (train=7/900, val=3/270, test=6/444). ROC-AUC/PR-AUC and any near-perfect scores must be read with this in mind - they reflect a handful of positive examples separated by a strong synthetic precursor signal (near-total downtime_ratio in the shift before failure), not validated generalization to novel failure modes."
+}

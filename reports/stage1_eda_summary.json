@@ -1,0 +1,333 @@
+{
+  "stage": "Stage I - Data Engineering & EDA",
+  "cleaning": {
+    "sensor": {
+      "rows_before": 51850,
+      "rows_dropped_malformed_timestamp": 6,
+      "rows_dropped_exact_duplicate": 10,
+      "physically_invalid_values_nulled": {
+        "temperature_k": 5,
+        "process_temperature_k": 0,
+        "vibration_mm_s": 5,
+        "pressure_bar": 5,
+        "torque_nm": 0,
+        "rotational_speed_rpm": 40,
+        "load_pct": 0
+      },
+      "running_state_values_imputed": {
+        "temperature_k": 211,
+        "process_temperature_k": 205,
+        "vibration_mm_s": 209,
+        "pressure_bar": 208,
+        "torque_nm": 205,
+        "rotational_speed_rpm": 245,
+        "load_pct": 203
+      },
+      "down_state_missing_preserved": 4455,
+      "iqr_outliers_detected_and_kept": {
+        "vibration_mm_s": 2065,
+        "temperature_k": 0,
+        "pressure_bar": 0
+      },
+      "rows_after": 51834
+    },
+    "production": {
+      "rows_before": 1625,
+      "rows_dropped_exact_duplicate": 5,
+      "invalid_production_count_fixed": 6,
+      "quality_score_imputed": 16,
+      "rows_after": 1620
+    },
+    "maintenance": {
+      "rows_before": 49,
+      "rows_dropped_exact_duplicate": 0,
+      "urgency_marked_unknown": 3,
+      "rows_after": 49
+    }
+  },
+  "integration": {
+    "rows_before_merge": 1620,
+    "rows_after_merge": 1620,
+    "unmatched_sensor_rows": 5,
+    "final_columns": [
+      "machine_id",
+      "machine_type",
+      "date",
+      "shift",
+      "production_rate",
+      "production_count",
+      "quality_score",
+      "downtime_minutes",
+      "operating_status",
+      "temperature_k_mean",
+      "temperature_k_std",
+      "temperature_k_max",
+      "process_temperature_k_mean",
+      "process_temperature_k_std",
+      "process_temperature_k_max",
+      "vibration_mm_s_mean",
+      "vibration_mm_s_std",
+      "vibration_mm_s_max",
+      "pressure_bar_mean",
+      "pressure_bar_std",
+      "pressure_bar_max",
+      "torque_nm_mean",
+      "torque_nm_std",
+      "torque_nm_max",
+      "rotational_speed_rpm_mean",
+      "rotational_speed_rpm_std",
+      "rotational_speed_rpm_max",
+      "load_pct_mean",
+      "load_pct_std",
+      "load_pct_max",
+      "failure_occurred_this_shift",
+      "days_since_last_maintenance",
+      "maintenance_count_past_7d"
+    ],
+    "final_rows": 1620
+  },
+  "feature_engineering": {
+    "rows_before": 1620,
+    "engineered_feature_columns": [
+      "quality_score_lag1",
+      "quality_score_rollmean_3",
+      "quality_score_rollmean_9",
+      "production_rate_lag1",
+      "production_rate_rollmean_3",
+      "production_rate_rollmean_9",
+      "downtime_minutes_lag1",
+      "downtime_minutes_rollmean_3",
+      "downtime_minutes_rollmean_9",
+      "temperature_k_mean_lag1",
+      "temperature_k_mean_rollmean_3",
+      "temperature_k_mean_rollmean_9",
+      "process_temperature_k_mean_lag1",
+      "process_temperature_k_mean_rollmean_3",
+      "process_temperature_k_mean_rollmean_9",
+      "vibration_mm_s_mean_lag1",
+      "vibration_mm_s_mean_rollmean_3",
+      "vibration_mm_s_mean_rollmean_9",
+      "pressure_bar_mean_lag1",
+      "pressure_bar_mean_rollmean_3",
+      "pressure_bar_mean_rollmean_9",
+      "torque_nm_mean_lag1",
+      "torque_nm_mean_rollmean_3",
+      "torque_nm_mean_rollmean_9",
+      "rotational_speed_rpm_mean_lag1",
+      "rotational_speed_rpm_mean_rollmean_3",
+      "rotational_speed_rpm_mean_rollmean_9",
+      "load_pct_mean_lag1",
+      "load_pct_mean_rollmean_3",
+      "load_pct_mean_rollmean_9"
+    ],
+    "rows_dropped_no_future_shift": 6,
+    "rows_after": 1614,
+    "failure_next_shift_positive_rate": 0.009913258983890954
+  },
+  "split": {
+    "train_day_range": [
+      1,
+      50
+    ],
+    "val_day_range": [
+      51,
+      65
+    ],
+    "test_day_range": [
+      66,
+      90
+    ],
+    "train_rows": 900,
+    "val_rows": 270,
+    "test_rows": 444,
+    "train_failure_rate": 0.0077777777777777776,
+    "val_failure_rate": 0.011111111111111112,
+    "test_failure_rate": 0.013513513513513514,
+    "day_overlap_between_splits": []
+  },
+  "scaler": {
+    "fitted_on": "train only",
+    "n_features_scaled": 61
+  },
+  "eda": {
+    "sensor_overview": {
+      "rows": 51834,
+      "columns": 13,
+      "memory_mb": 12.749,
+      "missing_values_total": 4455,
+      "duplicate_rows": 0
+    },
+    "production_overview": {
+      "rows": 1620,
+      "columns": 9,
+      "memory_mb": 0.425,
+      "missing_values_total": 0,
+      "duplicate_rows": 0
+    },
+    "maintenance_overview": {
+      "rows": 49,
+      "columns": 6,
+      "memory_mb": 0.018,
+      "missing_values_total": 0,
+      "duplicate_rows": 0
+    },
+    "integrated_overview": {
+      "rows": 1620,
+      "columns": 33,
+      "memory_mb": 0.736,
+      "missing_values_total": 161,
+      "duplicate_rows": 0
+    },
+    "numeric_summary": {
+      "production_rate": {
+        "count": 1620.0,
+        "mean": 74.396,
+        "std": 32.303,
+        "min": 31.46,
+        "25%": 42.678,
+        "50%": 64.8,
+        "75%": 115.71,
+        "max": 130.62
+      },
+      "production_count": {
+        "count": 1620.0,
+        "mean": 578.977,
+        "std": 270.349,
+        "min": 0.0,
+        "25%": 339.0,
+        "50%": 517.0,
+        "75%": 921.0,
+        "max": 1035.0
+      },
+      "quality_score": {
+        "count": 1620.0,
+        "mean": 95.116,
+        "std": 3.379,
+        "min": 80.55,
+        "25%": 94.04,
+        "50%": 95.68,
+        "75%": 97.2,
+        "max": 100.0
+      },
+      "downtime_minutes": {
+        "count": 1620.0,
+        "mean": 12.667,
+        "std": 74.406,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 480.0
+      },
+      "vibration_mm_s_mean": {
+        "count": 1615.0,
+        "mean": 2.231,
+        "std": 0.914,
+        "min": 1.216,
+        "25%": 1.478,
+        "50%": 1.855,
+        "75%": 2.625,
+        "max": 6.439
+      },
+      "temperature_k_mean": {
+        "count": 1615.0,
+        "mean": 304.676,
+        "std": 3.876,
+        "min": 295.552,
+        "25%": 301.889,
+        "50%": 304.501,
+        "75%": 307.26,
+        "max": 314.594
+      },
+      "pressure_bar_mean": {
+        "count": 1615.0,
+        "mean": 11.958,
+        "std": 5.127,
+        "min": 5.24,
+        "25%": 5.62,
+        "50%": 12.017,
+        "75%": 17.842,
+        "max": 20.13
+      }
+    },
+    "failure_rate_by_machine": {
+      "M-01": 0.0074,
+      "M-02": 0.0112,
+      "M-03": 0.0112,
+      "M-04": 0.0074,
+      "M-05": 0.0112,
+      "M-06": 0.0112
+    },
+    "sensor_correlation": {
+      "temperature_k_mean": {
+        "temperature_k_mean": 1.0,
+        "process_temperature_k_mean": 0.999,
+        "vibration_mm_s_mean": -0.015,
+        "pressure_bar_mean": 0.746,
+        "torque_nm_mean": -0.349,
+        "rotational_speed_rpm_mean": 0.676,
+        "load_pct_mean": 0.015
+      },
+      "process_temperature_k_mean": {
+        "temperature_k_mean": 0.999,
+        "process_temperature_k_mean": 1.0,
+        "vibration_mm_s_mean": -0.015,
+        "pressure_bar_mean": 0.745,
+        "torque_nm_mean": -0.348,
+        "rotational_speed_rpm_mean": 0.674,
+        "load_pct_mean": 0.016
+      },
+      "vibration_mm_s_mean": {
+        "temperature_k_mean": -0.015,
+        "process_temperature_k_mean": -0.015,
+        "vibration_mm_s_mean": 1.0,
+        "pressure_bar_mean": -0.103,
+        "torque_nm_mean": 0.485,
+        "rotational_speed_rpm_mean": -0.342,
+        "load_pct_mean": 0.024
+      },
+      "pressure_bar_mean": {
+        "temperature_k_mean": 0.746,
+        "process_temperature_k_mean": 0.745,
+        "vibration_mm_s_mean": -0.103,
+        "pressure_bar_mean": 1.0,
+        "torque_nm_mean": -0.366,
+        "rotational_speed_rpm_mean": 0.853,
+        "load_pct_mean": 0.021
+      },
+      "torque_nm_mean": {
+        "temperature_k_mean": -0.349,
+        "process_temperature_k_mean": -0.348,
+        "vibration_mm_s_mean": 0.485,
+        "pressure_bar_mean": -0.366,
+        "torque_nm_mean": 1.0,
+        "rotational_speed_rpm_mean": -0.761,
+        "load_pct_mean": 0.226
+      },
+      "rotational_speed_rpm_mean": {
+        "temperature_k_mean": 0.676,
+        "process_temperature_k_mean": 0.674,
+        "vibration_mm_s_mean": -0.342,
+        "pressure_bar_mean": 0.853,
+        "torque_nm_mean": -0.761,
+        "rotational_speed_rpm_mean": 1.0,
+        "load_pct_mean": -0.228
+      },
+      "load_pct_mean": {
+        "temperature_k_mean": 0.015,
+        "process_temperature_k_mean": 0.016,
+        "vibration_mm_s_mean": 0.024,
+        "pressure_bar_mean": 0.021,
+        "torque_nm_mean": 0.226,
+        "rotational_speed_rpm_mean": -0.228,
+        "load_pct_mean": 1.0
+      }
+    },
+    "plots_generated": [
+      "failure_rate_by_machine.png",
+      "quality_vs_downtime.png",
+      "sensor_correlation_heatmap.png",
+      "vibration_over_time.png"
+    ]
+  }
+}

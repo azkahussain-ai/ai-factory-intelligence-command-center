@@ -1,0 +1,37 @@
+{
+  "question": "What should the operator do if machine vibration becomes dangerously high?",
+  "answer": "Based on preventive_maintenance_sop.pdf (Section 3: Response to a DANGER-level Reading), page 1: once per hour, and (3) notify the shift supervisor. The machine may continue running under increased monitoring; a WARNING reading alone does not require stopping the machine. Section 3: Response to a DANGER-level Reading If any sensor channel reaches its DANGER threshold, the operator must treat this as a priority maintenance event, not a routine log entry. Specifically for dangerously high vibration: (1) reduce the machine's load or production rate immediately to lower mechanical stress, (2) schedule the machine for preventive maintenance within the current shift rather than waiting for Additionally, preventive_maintenance_sop.pdf (Section 2: Response to a WARNING-level reading), page 1 states: leaks or loose fasteners. Inspection results are logged in the maintenance record with machine ID, timestamp, and inspector ID. Section 2: Response to a WARNING-level reading If any sensor channel (temperature, vibration, pressure, or torque) reaches its WARNING threshold and remains there for more than one full shift, the operator must: (1) log the reading and machine ID in the maintenance system, (2) increase monitoring frequency for that machine to once per hour, and (3) notify the shift supervisor. The machine may continue running under increased monitoring; a WARNING reading Additionally, machine_operation_manual.pdf (Section 1: CNC), page 1 states: and should be logged and monitored. A sustained reading at or above 3.2 mm/s is a DANGER condition \u2014 vibration this high is dangerously elevated and indicates likely bearing wear, misalignment, or an imminent mechanical failure. Temperature guidance: normal operating temperature is approximately 301.0 K. 305.0 K or above is a WARNING condition; 308.0 K or above is a DANGER condition indicating possible overheating or lubrication failure. Pressure guidance: normal operating pressure is approximately 5.5 bar. 6.5 bar or above is a WARNING condition; 7.2 bar or above is a Additionally, machine_operation_manual.pdf (Section 2: Press), page 2 states: sustained reading at or above 3.8 mm/s is a WARNING condition and should be logged and monitored. A sustained reading at or above 4.7 mm/s is a DANGER condition \u2014 vibration this high is dangerously elevated and indicates likely bearing wear, misalignment, or an imminent mechanical failure. Temperature guidance: normal operating temperature is approximately 304.0 K. 309.0 K or above is a WARNING condition; 312.8 K or above is a DANGER condition indicating possible overheating or lubrication failure. Pressure guidance: normal operating pressure is approximately 12.0 bar. 14.4 bar or",
+  "grounded": true,
+  "used_live_llm": false,
+  "machine_context": "Machine M-01: vision inspection = defect (confidence 0.94), latest maintenance-note classification = Mechanical (confidence 0.65)",
+  "sources": [
+    {
+      "document": "preventive_maintenance_sop.pdf",
+      "page": 1,
+      "section": "Section 3: Response to a DANGER-level Reading",
+      "evidence": "once per hour, and (3) notify the shift supervisor. The machine may continue running under increased monitoring; a WARNING reading alone does not require stopping the machine. Section 3: Response to a DANGER-level Reading If any sensor channel reaches its DANGER threshold, the operator must treat this as a priority maintenance event, not a routine log entry. Specifically for dangerously high vibration: (1) reduce the machine's load or production rate immediately to lower mechanical stress, (2) schedule the machine for preventive maintenance within the current shift rather than waiting for",
+      "score": 0.2435
+    },
+    {
+      "document": "preventive_maintenance_sop.pdf",
+      "page": 1,
+      "section": "Section 2: Response to a WARNING-level reading",
+      "evidence": "leaks or loose fasteners. Inspection results are logged in the maintenance record with machine ID, timestamp, and inspector ID. Section 2: Response to a WARNING-level reading If any sensor channel (temperature, vibration, pressure, or torque) reaches its WARNING threshold and remains there for more than one full shift, the operator must: (1) log the reading and machine ID in the maintenance system, (2) increase monitoring frequency for that machine to once per hour, and (3) notify the shift supervisor. The machine may continue running under increased monitoring; a WARNING reading",
+      "score": 0.11
+    },
+    {
+      "document": "machine_operation_manual.pdf",
+      "page": 1,
+      "section": "Section 1: CNC",
+      "evidence": "and should be logged and monitored. A sustained reading at or above 3.2 mm/s is a DANGER condition \u2014 vibration this high is dangerously elevated and indicates likely bearing wear, misalignment, or an imminent mechanical failure. Temperature guidance: normal operating temperature is approximately 301.0 K. 305.0 K or above is a WARNING condition; 308.0 K or above is a DANGER condition indicating possible overheating or lubrication failure. Pressure guidance: normal operating pressure is approximately 5.5 bar. 6.5 bar or above is a WARNING condition; 7.2 bar or above is a",
+      "score": 0.1026
+    },
+    {
+      "document": "machine_operation_manual.pdf",
+      "page": 2,
+      "section": "Section 2: Press",
+      "evidence": "sustained reading at or above 3.8 mm/s is a WARNING condition and should be logged and monitored. A sustained reading at or above 4.7 mm/s is a DANGER condition \u2014 vibration this high is dangerously elevated and indicates likely bearing wear, misalignment, or an imminent mechanical failure. Temperature guidance: normal operating temperature is approximately 304.0 K. 309.0 K or above is a WARNING condition; 312.8 K or above is a DANGER condition indicating possible overheating or lubrication failure. Pressure guidance: normal operating pressure is approximately 12.0 bar. 14.4 bar or",
+      "score": 0.0968
+    }
+  ]
+}

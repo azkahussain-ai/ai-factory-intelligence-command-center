@@ -1,0 +1,246 @@
+{
+  "production_rate": {
+    "mean": 74.77164444444446,
+    "std": 32.72266256845027
+  },
+  "production_count": {
+    "mean": 585.9577777777778,
+    "std": 272.09713389365754
+  },
+  "quality_score": {
+    "mean": 95.30381666666666,
+    "std": 3.162428016872813
+  },
+  "downtime_minutes": {
+    "mean": 10.0,
+    "std": 66.0973091928571
+  },
+  "temperature_k_mean": {
+    "mean": 304.6865280480766,
+    "std": 4.147488908497304
+  },
+  "temperature_k_std": {
+    "mean": 0.16911441767955204,
+    "std": 0.13449793581556024
+  },
+  "temperature_k_max": {
+    "mean": 304.9842526883345,
+    "std": 4.226576786152249
+  },
+  "process_temperature_k_mean": {
+    "mean": 314.68314744692003,
+    "std": 4.144103036180705
+  },
+  "process_temperature_k_std": {
+    "mean": 1.0059158037961287,
+    "std": 0.15163425013161214
+  },
+  "process_temperature_k_max": {
+    "mean": 316.7576640407054,
+    "std": 4.20244706476275
+  },
+  "vibration_mm_s_mean": {
+    "mean": 2.173794814653665,
+    "std": 0.8542872131732483
+  },
+  "vibration_mm_s_std": {
+    "mean": 0.4326318778636189,
+    "std": 0.14828334964954193
+  },
+  "vibration_mm_s_max": {
+    "mean": 3.0710756316100407,
+    "std": 1.032644788663498
+  },
+  "pressure_bar_mean": {
+    "mean": 11.925682698709899,
+    "std": 5.090997156829318
+  },
+  "pressure_bar_std": {
+    "mean": 1.1554025625172815,
+    "std": 0.5564013860091508
+  },
+  "pressure_bar_max": {
+    "mean": 14.332381750492038,
+    "std": 6.232254858549432
+  },
+  "torque_nm_mean": {
+    "mean": 41.640126575263594,
+    "std": 10.469045549086882
+  },
+  "torque_nm_std": {
+    "mean": 9.917277226020971,
+    "std": 2.0711662400935675
+  },
+  "torque_nm_max": {
+    "mean": 62.20581453788002,
+    "std": 14.49780404599959
+  },
+  "rotational_speed_rpm_mean": {
+    "mean": 907.3297184738914,
+    "std": 224.25311499450288
+  },
+  "rotational_speed_rpm_std": {
+    "mean": 278.637553879452,
+    "std": 126.64975393786447
+  },
+  "rotational_speed_rpm_max": {
+    "mean": 1817.161914754074,
+    "std": 750.9436793822764
+  },
+  "load_pct_mean": {
+    "mean": 69.57262351884143,
+    "std": 3.197253882971614
+  },
+  "load_pct_std": {
+    "mean": 17.001887941348524,
+    "std": 2.364038291129364
+  },
+  "load_pct_max": {
+    "mean": 98.86395159772334,
+    "std": 2.7275169690246575
+  },
+  "failure_occurred_this_shift": {
+    "mean": 0.0077777777777777776,
+    "std": 0.08789691831157313
+  },
+  "days_since_last_maintenance": {
+    "mean": 8.994395734597157,
+    "std": 6.455945441550445
+  },
+  "maintenance_count_past_7d": {
+    "mean": 0.56,
+    "std": 0.7603640601009589
+  },
+  "downtime_ratio": {
+    "mean": 0.020833333333333332,
+    "std": 0.13770272748511894
+  },
+  "production_efficiency": {
+    "mean": 73.4775,
+    "std": 33.76901084687255
+  },
+  "quality_score_lag1": {
+    "mean": 95.2935514541387,
+    "std": 3.168434045256619
+  },
+  "quality_score_rollmean_3": {
+    "mean": 95.29438851603283,
+    "std": 2.628038339888937
+  },
+  "quality_score_rollmean_9": {
+    "mean": 95.30717324491317,
+    "std": 2.1876868980451296
+  },
+  "production_rate_lag1": {
+    "mean": 74.76144295302014,
+    "std": 32.71980307998577
+  },
+  "production_rate_rollmean_3": {
+    "mean": 74.76345824011932,
+    "std": 32.64515303129111
+  },
+  "production_rate_rollmean_9": {
+    "mean": 74.78378568321438,
+    "std": 32.60679140757851
+  },
+  "downtime_minutes_lag1": {
+    "mean": 10.06711409395973,
+    "std": 66.31388907937244
+  },
+  "downtime_minutes_rollmean_3": {
+    "mean": 10.06711409395973,
+    "std": 55.35790070428632
+  },
+  "downtime_minutes_rollmean_9": {
+    "mean": 10.06711409395973,
+    "std": 35.356594986745684
+  },
+  "temperature_k_mean_lag1": {
+    "mean": 304.6745264415577,
+    "std": 4.1436981380671805
+  },
+  "temperature_k_mean_rollmean_3": {
+    "mean": 304.66225390591603,
+    "std": 4.1339388628051905
+  },
+  "temperature_k_mean_rollmean_9": {
+    "mean": 304.5992733484101,
+    "std": 4.094777569892661
+  },
+  "process_temperature_k_mean_lag1": {
+    "mean": 314.6713931216805,
+    "std": 4.140173652000565
+  },
+  "process_temperature_k_mean_rollmean_3": {
+    "mean": 314.65947402030315,
+    "std": 4.126932766465534
+  },
+  "process_temperature_k_mean_rollmean_9": {
+    "mean": 314.59695558683836,
+    "std": 4.0869630348860255
+  },
+  "vibration_mm_s_mean_lag1": {
+    "mean": 2.175131950488931,
+    "std": 0.8559835489863792
+  },
+  "vibration_mm_s_mean_rollmean_3": {
+    "mean": 2.177088852858404,
+    "std": 0.8364055265118389
+  },
+  "vibration_mm_s_mean_rollmean_9": {
+    "mean": 2.1775336859288115,
+    "std": 0.7687057508438501
+  },
+  "pressure_bar_mean_lag1": {
+    "mean": 11.926457259464192,
+    "std": 5.091311879826849
+  },
+  "pressure_bar_mean_rollmean_3": {
+    "mean": 11.941308911955792,
+    "std": 5.091656872947793
+  },
+  "pressure_bar_mean_rollmean_9": {
+    "mean": 11.941979634007948,
+    "std": 5.088856760335224
+  },
+  "torque_nm_mean_lag1": {
+    "mean": 41.6465821160516,
+    "std": 10.472720692269029
+  },
+  "torque_nm_mean_rollmean_3": {
+    "mean": 41.62597687872506,
+    "std": 10.354794866172595
+  },
+  "torque_nm_mean_rollmean_9": {
+    "mean": 41.64195148475534,
+    "std": 10.323517812818364
+  },
+  "rotational_speed_rpm_mean_lag1": {
+    "mean": 907.2315503809303,
+    "std": 224.3146321972164
+  },
+  "rotational_speed_rpm_mean_rollmean_3": {
+    "mean": 907.5885483638842,
+    "std": 219.9244750604894
+  },
+  "rotational_speed_rpm_mean_rollmean_9": {
+    "mean": 907.0691392933036,
+    "std": 218.47016857457572
+  },
+  "load_pct_mean_lag1": {
+    "mean": 69.58476747554323,
+    "std": 3.202970882508545
+  },
+  "load_pct_mean_rollmean_3": {
+    "mean": 69.59617203752327,
+    "std": 1.8345563229850814
+  },
+  "load_pct_mean_rollmean_9": {
+    "mean": 69.61587176291417,
+    "std": 1.0774362987121928
+  },
+  "has_recent_maintenance": {
+    "mean": 0.4311111111111111,
+    "std": 0.49550694133247414
+  }
+}

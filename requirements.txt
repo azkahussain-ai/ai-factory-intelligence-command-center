@@ -1,0 +1,53 @@
+# Stage I - Data Engineering & EDA
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+pytest>=7.4
+
+# Stage II - ML & Deep Learning
+scikit-learn>=1.3
+joblib>=1.3
+# Note: the GRU (src/deep_learning/gru_numpy.py) is implemented from scratch
+# in NumPy (no extra dependency) because this dev sandbox has no network
+# access and could not install tensorflow/torch. If running Stage II
+# elsewhere with network access, tensorflow or torch could replace it, but
+# is NOT required - the NumPy implementation is fully functional.
+
+# Stage III - Computer Vision & NLP
+pillow>=10.0
+# Note: same no-network constraint applies - the CV CNN
+# (src/computer_vision/cnn_numpy.py) is also a from-scratch NumPy
+# implementation (gradient-checked against numerical differentiation).
+# NLP uses scikit-learn's TfidfVectorizer + LogisticRegression (already
+# covered by the scikit-learn dependency above).
+
+# Stage IV - GenAI + RAG
+pdfplumber>=0.11    # PDF text extraction (already present in this sandbox)
+reportlab>=4.4      # generates the synthetic knowledge-base PDFs
+# Note: same no-network constraint as Stage II/III applies. faiss-cpu,
+# chromadb, sentence-transformers, and every LLM API SDK could not be
+# installed/reached in this sandbox, so Stage IV uses scikit-learn's
+# TfidfVectorizer (already a dependency) as the embedding model and a
+# from-scratch NumPy cosine-similarity store (src/rag/vector_store.py) in
+# place of FAISS/Chroma. If running elsewhere with network access, these
+# could be swapped in without changing any other Stage IV file - see
+# docs/HANDOFF.md.
+
+# Stage VI - Explainable AI
+shap>=0.44
+# Used for the Stage II baseline tree/linear models (TreeExplainer /
+# LinearExplainer are both fully compatible with real scikit-learn
+# estimators). The GRU and CV CNN are hand-rolled NumPy models with no
+# autodiff framework, so they are explained instead with permutation
+# importance and a manually-derived Grad-CAM respectively - see
+# src/xai/gru_explainer.py and src/xai/gradcam_explainer.py.
+
+
+
+# Stage VIII - Human-in-the-Loop + MLOps/MLflow
+mlflow>=2.14
+# HITL (src/hitl/) uses only the standard library (json/uuid) - no new
+# dependency beyond what's already in this file.
+
+# Stage IX - Web Application + Automated Report
+streamlit>=1.63

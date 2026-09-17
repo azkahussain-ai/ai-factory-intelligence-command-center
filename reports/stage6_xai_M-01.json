@@ -1,0 +1,59 @@
+{
+  "machine_id": "M-01",
+  "prediction": {
+    "probability": 0.9999,
+    "predicted_failure": 1,
+    "risk_level": "HIGH"
+  },
+  "feature_explanations": [
+    {
+      "feature": "operating_status_DOWN",
+      "value": 1.0,
+      "contribution": 0.061733,
+      "direction": "increases_risk"
+    },
+    {
+      "feature": "downtime_minutes",
+      "value": 480.0,
+      "contribution": 0.000581,
+      "direction": "increases_risk"
+    },
+    {
+      "feature": "downtime_ratio",
+      "value": 1.0,
+      "contribution": 0.000409,
+      "direction": "increases_risk"
+    },
+    {
+      "feature": "vibration_mm_s_mean",
+      "value": 5.169803947035152,
+      "contribution": 7.1e-05,
+      "direction": "increases_risk"
+    },
+    {
+      "feature": "production_efficiency",
+      "value": 0.0,
+      "contribution": 1.8e-05,
+      "direction": "increases_risk"
+    }
+  ],
+  "top_features": [
+    "operating_status_DOWN",
+    "downtime_minutes",
+    "downtime_ratio",
+    "vibration_mm_s_mean",
+    "production_efficiency"
+  ],
+  "vision_explanation": {
+    "available": true,
+    "predicted_class": "defect",
+    "confidence": 0.9402,
+    "heatmap_path": "reports/xai/M-01_gradcam_heatmap.png",
+    "overlay_path": "reports/xai/M-01_gradcam_overlay.png"
+  },
+  "human_summary": "Predicted risk: HIGH (failure probability 100.0%). The prediction is pushed toward failure mainly by: operating status DOWN, downtime minutes, downtime ratio. The vision inspection also flagged a defect (confidence 94.0%); see the Grad-CAM overlay for the image region that drove this.",
+  "method": {
+    "tabular": "permutation_importance",
+    "vision": "Grad-CAM (manual backprop to the model's single conv layer - no autodiff framework available for this hand-rolled NumPy CNN)"
+  }
+}

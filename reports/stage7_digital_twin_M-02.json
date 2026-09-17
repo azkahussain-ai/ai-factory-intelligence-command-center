@@ -1,0 +1,55 @@
+{
+  "status": "ok",
+  "machine_id": "M-02",
+  "machine_type": "CNC",
+  "horizon_shifts": 6,
+  "horizon_hours": 48,
+  "current_production_rate": 40.04,
+  "current_failure_probability": 0.0,
+  "scenarios": [
+    {
+      "scenario": "continue_operating",
+      "description": "Continue normal operation at the current production rate for the full horizon.",
+      "failure_probability_source": "GRU model, current real input window (unmodified)",
+      "per_shift_failure_probability": 0.0,
+      "cumulative_failure_risk": 0.0,
+      "expected_downtime_hours": 0.0,
+      "expected_production_units": 1921.9,
+      "production_loss_units": 0.0,
+      "expected_revenue_usd": 23062.85,
+      "downtime_cost_usd": 0.06,
+      "expected_failure_repair_cost_usd": 0.1,
+      "estimated_net_value_usd": 23062.7
+    },
+    {
+      "scenario": "stop_for_maintenance",
+      "description": "Stop now for preventive maintenance (4.5h, the fleet's empirical average planned-maintenance duration), then resume normal operation.",
+      "failure_probability_source": "GRU model, counterfactual post-maintenance input (fleet-wide healthy-state training averages + reset maintenance fields)",
+      "per_shift_failure_probability": 0.0,
+      "cumulative_failure_risk": 0.0,
+      "expected_downtime_hours": 4.5,
+      "expected_production_units": 1741.7,
+      "production_loss_units": 180.2,
+      "expected_revenue_usd": 20900.88,
+      "downtime_cost_usd": 675.0,
+      "expected_failure_repair_cost_usd": 0.08,
+      "estimated_net_value_usd": 20225.8
+    },
+    {
+      "scenario": "reduce_load",
+      "description": "Reduce production rate/load by 20% for the full horizon.",
+      "failure_probability_source": "GRU model, counterfactual input with load/torque/rpm/production_rate scaled down 20% from the machine's real current readings",
+      "per_shift_failure_probability": 0.0,
+      "cumulative_failure_risk": 0.0001,
+      "expected_downtime_hours": 0.0,
+      "expected_production_units": 1537.5,
+      "production_loss_units": 384.4,
+      "expected_revenue_usd": 18449.98,
+      "downtime_cost_usd": 0.17,
+      "expected_failure_repair_cost_usd": 0.29,
+      "estimated_net_value_usd": 18449.52
+    }
+  ],
+  "recommended_scenario": "continue_operating",
+  "recommendation_basis": "highest estimated_net_value_usd across the 3 simulated scenarios"
+}

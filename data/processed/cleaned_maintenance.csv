@@ -1,0 +1,50 @@
+machine_id,timestamp,maintenance_type,incident_type,maintenance_note,urgency
+M-01,2026-05-02 13:00:00,Preventive,Scheduled,Routine scheduled inspection and lubrication performed on M-01.,Low
+M-01,2026-05-22 10:00:00,Preventive,Scheduled,Routine scheduled inspection and lubrication performed on M-01.,Unknown
+M-01,2026-05-23 12:00:00,Corrective,Electrical,Intermittent power fluctuation observed on M-01. Panel indicator flickered during operation.,High
+M-01,2026-05-24 08:00:00,Preventive,Scheduled,Routine scheduled inspection and lubrication performed on M-01.,Low
+M-01,2026-05-30 11:00:00,Preventive,Scheduled,Routine scheduled inspection and lubrication performed on M-01.,Low
+M-01,2026-07-14 13:00:00,Preventive,Scheduled,Routine scheduled inspection and lubrication performed on M-01.,Low
+M-01,2026-07-22 18:00:00,Corrective,Mechanical,Operator reported a knocking sound on M-01. Vibration levels appeared elevated during inspection.,Medium
+M-02,2026-05-03 10:00:00,Preventive,Scheduled,Routine scheduled inspection and lubrication performed on M-02.,Low
+M-02,2026-05-10 15:00:00,Corrective,Mechanical,Operator reported abnormal rattling on M-02. Vibration levels appeared elevated during inspection.,Medium
+M-02,2026-05-31 07:00:00,Corrective,Mechanical,Operator reported unusual grinding noise on M-02. Vibration levels appeared elevated during inspection.,High
+M-02,2026-06-20 17:00:00,Preventive,Scheduled,Routine scheduled inspection and lubrication performed on M-02.,Low
+M-02,2026-06-24 09:00:00,Preventive,Scheduled,Routine scheduled inspection and lubrication performed on M-02.,Low
+M-02,2026-07-01 19:00:00,Preventive,Scheduled,Routine scheduled inspection and lubrication performed on M-02.,Low
+M-02,2026-07-03 14:00:00,Preventive,Scheduled,Routine scheduled inspection and lubrication performed on M-02.,Low
+M-02,2026-07-08 16:00:00,Corrective,Electrical,Intermittent power fluctuation observed on M-02. Panel indicator flickered during operation.,Medium
+M-02,2026-07-19 19:00:00,Preventive,Scheduled,Routine scheduled inspection and lubrication performed on M-02.,Low
+M-03,2026-05-04 07:00:00,Preventive,Scheduled,Routine scheduled inspection and lubrication performed on M-03.,Low
+M-03,2026-05-06 11:00:00,Preventive,Scheduled,Routine scheduled inspection and lubrication performed on M-03.,Low
+M-03,2026-05-08 08:00:00,Preventive,Scheduled,Routine scheduled inspection and lubrication performed on M-03.,Low
+M-03,2026-05-27 08:00:00,Corrective,Electrical,Intermittent power fluctuation observed on M-03. Panel indicator flickered during operation.,Medium
+M-03,2026-06-05 07:00:00,Preventive,Scheduled,Routine scheduled inspection and lubrication performed on M-03.,Low
+M-03,2026-06-22 09:00:00,Corrective,Quality,Output from M-03 showed increased defect rate this shift. Quality inspector flagged the batch.,High
+M-03,2026-07-06 14:00:00,Corrective,Mechanical,Operator reported a knocking sound on M-03. Vibration levels appeared elevated during inspection.,High
+M-03,2026-07-10 17:00:00,Preventive,Scheduled,Routine scheduled inspection and lubrication performed on M-03.,Low
+M-03,2026-07-17 06:00:00,Preventive,Scheduled,Routine scheduled inspection and lubrication performed on M-03.,Low
+M-04,2026-05-07 15:00:00,Corrective,Mechanical,Operator reported a knocking sound on M-04. Vibration levels appeared elevated during inspection.,High
+M-04,2026-05-24 15:00:00,Preventive,Scheduled,Routine scheduled inspection and lubrication performed on M-04.,Low
+M-04,2026-06-29 17:00:00,Preventive,Scheduled,Routine scheduled inspection and lubrication performed on M-04.,Low
+M-04,2026-06-30 15:00:00,Corrective,Mechanical,Operator reported unusual grinding noise on M-04. Vibration levels appeared elevated during inspection.,High
+M-04,2026-07-01 13:00:00,Preventive,Scheduled,Routine scheduled inspection and lubrication performed on M-04.,Low
+M-04,2026-07-21 10:00:00,Preventive,Scheduled,Routine scheduled inspection and lubrication performed on M-04.,Low
+M-04,2026-07-24 18:00:00,Preventive,Scheduled,Routine scheduled inspection and lubrication performed on M-04.,Low
+M-04,2026-07-28 17:00:00,Preventive,Scheduled,Routine scheduled inspection and lubrication performed on M-04.,Low
+M-05,2026-05-05 15:00:00,Preventive,Scheduled,Routine scheduled inspection and lubrication performed on M-05.,Low
+M-05,2026-05-07 14:00:00,Preventive,Scheduled,Routine scheduled inspection and lubrication performed on M-05.,Low
+M-05,2026-05-09 14:00:00,Corrective,Quality,Output from M-05 showed increased defect rate this shift. Quality inspector flagged the batch.,High
+M-05,2026-06-04 06:00:00,Preventive,Scheduled,Routine scheduled inspection and lubrication performed on M-05.,Low
+M-05,2026-06-10 17:00:00,Preventive,Scheduled,Routine scheduled inspection and lubrication performed on M-05.,Unknown
+M-05,2026-06-27 13:00:00,Corrective,Mechanical,Operator reported high-pitched vibration noise on M-05. Vibration levels appeared elevated during inspection.,Medium
+M-05,2026-07-11 17:00:00,Preventive,Scheduled,Routine scheduled inspection and lubrication performed on M-05.,Low
+M-05,2026-07-20 18:00:00,Corrective,Mechanical,Operator reported high-pitched vibration noise on M-05. Vibration levels appeared elevated during inspection.,Unknown
+M-06,2026-05-01 10:00:00,Preventive,Scheduled,Routine scheduled inspection and lubrication performed on M-06.,Low
+M-06,2026-05-14 12:00:00,Preventive,Scheduled,Routine scheduled inspection and lubrication performed on M-06.,Low
+M-06,2026-05-16 13:00:00,Corrective,Electrical,Intermittent power fluctuation observed on M-06. Panel indicator flickered during operation.,High
+M-06,2026-05-27 14:00:00,Preventive,Scheduled,Routine scheduled inspection and lubrication performed on M-06.,Low
+M-06,2026-07-17 07:00:00,Corrective,Mechanical,Operator reported high-pitched vibration noise on M-06. Vibration levels appeared elevated during inspection.,High
+M-06,2026-07-18 15:00:00,Preventive,Scheduled,Routine scheduled inspection and lubrication performed on M-06.,Low
+M-06,2026-07-26 16:00:00,Corrective,Mechanical,Operator reported high-pitched vibration noise on M-06. Vibration levels appeared elevated during inspection.,Medium
+M-06,2026-07-29 12:00:00,Preventive,Scheduled,Routine scheduled inspection and lubrication performed on M-06.,Low

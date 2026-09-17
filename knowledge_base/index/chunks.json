@@ -1,0 +1,192 @@
+[
+  {
+    "chunk_id": "chunk_0001",
+    "document": "machine_operation_manual.pdf",
+    "page": 1,
+    "section": "Section 1: CNC",
+    "text": "Machine Operation Manual \u2014 AI Factory Fleet This manual defines normal operating ranges and out-of-range thresholds for every machine type in the fleet (CNC, Press, Injection Molder). Warning thresholds indicate a reading that requires operator attention; danger thresholds indicate a reading that requires immediate action (see the Preventive Maintenance SOP and Safety & Emergency Guidelines documents for required responses). Section 1: CNC Rated power draw: 2860 W. Readings below are per-15-minute sensor sample. Sensor Normal (mean) Warning threshold Danger threshold Temperature 301.0 K \u2021 305.0 K \u2021 308.0 K Vibration",
+    "metadata": {
+      "word_count": 90
+    }
+  },
+  {
+    "chunk_id": "chunk_0002",
+    "document": "machine_operation_manual.pdf",
+    "page": 1,
+    "section": "Section 1: CNC",
+    "text": "per-15-minute sensor sample. Sensor Normal (mean) Warning threshold Danger threshold Temperature 301.0 K \u2021 305.0 K \u2021 308.0 K Vibration 1.8 mm/s \u2021 2.6 mm/s \u2021 3.2 mm/s Pressure 5.5 bar \u2021 6.5 bar \u2021 7.2 bar Torque 40.0 Nm \u2021 60.0 Nm \u2021 75.0 Nm Vibration guidance: normal running vibration for a CNC is approximately 1.8 mm/s. A sustained reading at or above 2.6 mm/s is a WARNING condition and should be logged and monitored. A sustained reading at or above 3.2 mm/s is a DANGER condition \u2014 vibration",
+    "metadata": {
+      "word_count": 90
+    }
+  },
+  {
+    "chunk_id": "chunk_0003",
+    "document": "machine_operation_manual.pdf",
+    "page": 1,
+    "section": "Section 1: CNC",
+    "text": "and should be logged and monitored. A sustained reading at or above 3.2 mm/s is a DANGER condition \u2014 vibration this high is dangerously elevated and indicates likely bearing wear, misalignment, or an imminent mechanical failure. Temperature guidance: normal operating temperature is approximately 301.0 K. 305.0 K or above is a WARNING condition; 308.0 K or above is a DANGER condition indicating possible overheating or lubrication failure. Pressure guidance: normal operating pressure is approximately 5.5 bar. 6.5 bar or above is a WARNING condition; 7.2 bar or above is a",
+    "metadata": {
+      "word_count": 90
+    }
+  },
+  {
+    "chunk_id": "chunk_0004",
+    "document": "machine_operation_manual.pdf",
+    "page": 1,
+    "section": "Section 1: CNC",
+    "text": "operating pressure is approximately 5.5 bar. 6.5 bar or above is a WARNING condition; 7.2 bar or above is a DANGER condition indicating a possible seal or valve fault.",
+    "metadata": {
+      "word_count": 29
+    }
+  },
+  {
+    "chunk_id": "chunk_0005",
+    "document": "machine_operation_manual.pdf",
+    "page": 2,
+    "section": "Section 2: Press",
+    "text": "Section 2: Press Rated power draw: 4200 W. Readings below are per-15-minute sensor sample. Sensor Normal (mean) Warning threshold Danger threshold Temperature 304.0 K \u2021 309.0 K \u2021 312.8 K Vibration 2.6 mm/s \u2021 3.8 mm/s \u2021 4.7 mm/s Pressure 12.0 bar \u2021 14.4 bar \u2021 16.2 bar Torque 55.0 Nm \u2021 79.0 Nm \u2021 97.0 Nm Vibration guidance: normal running vibration for a Press is approximately 2.6 mm/s. A sustained reading at or above 3.8 mm/s is a WARNING condition and should be logged and monitored. A sustained reading",
+    "metadata": {
+      "word_count": 90
+    }
+  },
+  {
+    "chunk_id": "chunk_0006",
+    "document": "machine_operation_manual.pdf",
+    "page": 2,
+    "section": "Section 2: Press",
+    "text": "sustained reading at or above 3.8 mm/s is a WARNING condition and should be logged and monitored. A sustained reading at or above 4.7 mm/s is a DANGER condition \u2014 vibration this high is dangerously elevated and indicates likely bearing wear, misalignment, or an imminent mechanical failure. Temperature guidance: normal operating temperature is approximately 304.0 K. 309.0 K or above is a WARNING condition; 312.8 K or above is a DANGER condition indicating possible overheating or lubrication failure. Pressure guidance: normal operating pressure is approximately 12.0 bar. 14.4 bar or",
+    "metadata": {
+      "word_count": 90
+    }
+  },
+  {
+    "chunk_id": "chunk_0007",
+    "document": "machine_operation_manual.pdf",
+    "page": 2,
+    "section": "Section 2: Press",
+    "text": "DANGER condition indicating possible overheating or lubrication failure. Pressure guidance: normal operating pressure is approximately 12.0 bar. 14.4 bar or above is a WARNING condition; 16.2 bar or above is a DANGER condition indicating a possible seal or valve fault.",
+    "metadata": {
+      "word_count": 40
+    }
+  },
+  {
+    "chunk_id": "chunk_0008",
+    "document": "machine_operation_manual.pdf",
+    "page": 3,
+    "section": "Section 3: Injection Molder",
+    "text": "Section 3: Injection Molder Rated power draw: 3500 W. Readings below are per-15-minute sensor sample. Sensor Normal (mean) Warning threshold Danger threshold Temperature 308.0 K \u2021 314.0 K \u2021 318.5 K Vibration 1.4 mm/s \u2021 2.0 mm/s \u2021 2.5 mm/s Pressure 18.0 bar \u2021 21.6 bar \u2021 24.3 bar Torque 30.0 Nm \u2021 46.0 Nm \u2021 58.0 Nm Vibration guidance: normal running vibration for a Injection Molder is approximately 1.4 mm/s. A sustained reading at or above 2.0 mm/s is a WARNING condition and should be logged and monitored. A",
+    "metadata": {
+      "word_count": 90
+    }
+  },
+  {
+    "chunk_id": "chunk_0009",
+    "document": "machine_operation_manual.pdf",
+    "page": 3,
+    "section": "Section 3: Injection Molder",
+    "text": "mm/s. A sustained reading at or above 2.0 mm/s is a WARNING condition and should be logged and monitored. A sustained reading at or above 2.5 mm/s is a DANGER condition \u2014 vibration this high is dangerously elevated and indicates likely bearing wear, misalignment, or an imminent mechanical failure. Temperature guidance: normal operating temperature is approximately 308.0 K. 314.0 K or above is a WARNING condition; 318.5 K or above is a DANGER condition indicating possible overheating or lubrication failure. Pressure guidance: normal operating pressure is approximately 18.0 bar. 21.6",
+    "metadata": {
+      "word_count": 90
+    }
+  },
+  {
+    "chunk_id": "chunk_0010",
+    "document": "machine_operation_manual.pdf",
+    "page": 3,
+    "section": "Section 3: Injection Molder",
+    "text": "is a DANGER condition indicating possible overheating or lubrication failure. Pressure guidance: normal operating pressure is approximately 18.0 bar. 21.6 bar or above is a WARNING condition; 24.3 bar or above is a DANGER condition indicating a possible seal or valve fault.",
+    "metadata": {
+      "word_count": 42
+    }
+  },
+  {
+    "chunk_id": "chunk_0011",
+    "document": "preventive_maintenance_sop.pdf",
+    "page": 1,
+    "section": "Section 2: Response to a WARNING-level reading",
+    "text": "Preventive Maintenance SOP This SOP defines the routine maintenance schedule and the required operator response when a machine sensor reading crosses a WARNING or DANGER threshold as defined in the Machine Operation Manual. Section 1: Routine Maintenance Schedule Every machine in the fleet receives a scheduled inspection every 168 operating hours (approximately weekly under continuous 3-shift operation). The inspection covers lubrication, belt/bearing wear, sensor calibration, and a visual check for leaks or loose fasteners. Inspection results are logged in the maintenance record with machine ID, timestamp, and inspector ID. Section",
+    "metadata": {
+      "word_count": 90
+    }
+  },
+  {
+    "chunk_id": "chunk_0012",
+    "document": "preventive_maintenance_sop.pdf",
+    "page": 1,
+    "section": "Section 2: Response to a WARNING-level reading",
+    "text": "leaks or loose fasteners. Inspection results are logged in the maintenance record with machine ID, timestamp, and inspector ID. Section 2: Response to a WARNING-level reading If any sensor channel (temperature, vibration, pressure, or torque) reaches its WARNING threshold and remains there for more than one full shift, the operator must: (1) log the reading and machine ID in the maintenance system, (2) increase monitoring frequency for that machine to once per hour, and (3) notify the shift supervisor. The machine may continue running under increased monitoring; a WARNING reading",
+    "metadata": {
+      "word_count": 90
+    }
+  },
+  {
+    "chunk_id": "chunk_0013",
+    "document": "preventive_maintenance_sop.pdf",
+    "page": 1,
+    "section": "Section 3: Response to a DANGER-level Reading",
+    "text": "once per hour, and (3) notify the shift supervisor. The machine may continue running under increased monitoring; a WARNING reading alone does not require stopping the machine. Section 3: Response to a DANGER-level Reading If any sensor channel reaches its DANGER threshold, the operator must treat this as a priority maintenance event, not a routine log entry. Specifically for dangerously high vibration: (1) reduce the machine's load or production rate immediately to lower mechanical stress, (2) schedule the machine for preventive maintenance within the current shift rather than waiting for",
+    "metadata": {
+      "word_count": 90
+    }
+  },
+  {
+    "chunk_id": "chunk_0014",
+    "document": "preventive_maintenance_sop.pdf",
+    "page": 1,
+    "section": "Section 3: Response to a DANGER-level Reading",
+    "text": "immediately to lower mechanical stress, (2) schedule the machine for preventive maintenance within the current shift rather than waiting for the next scheduled inspection, (3) do not wait for a full failure before intervening \u2014 a sustained DANGER-level vibration reading is a strong precursor to bearing or shaft failure, and (4) record the event, the action taken, and the responsible supervisor in the maintenance log. If the DANGER-level reading is accompanied by unusual noise, visible smoke, or a burning smell, follow the emergency stop procedure in the Safety & Emergency",
+    "metadata": {
+      "word_count": 90
+    }
+  },
+  {
+    "chunk_id": "chunk_0015",
+    "document": "preventive_maintenance_sop.pdf",
+    "page": 1,
+    "section": "Section 4: Escalation",
+    "text": "accompanied by unusual noise, visible smoke, or a burning smell, follow the emergency stop procedure in the Safety & Emergency Guidelines document instead of continuing to operate the machine at reduced load. Section 4: Escalation Any DANGER-level event that recurs on the same machine within 72 hours after a maintenance action must be escalated to the maintenance engineering team for root-cause investigation, rather than repeating the same corrective action.",
+    "metadata": {
+      "word_count": 69
+    }
+  },
+  {
+    "chunk_id": "chunk_0016",
+    "document": "safety_emergency_guidelines.pdf",
+    "page": 1,
+    "section": "Section 1: Emergency Stop Procedure",
+    "text": "Safety & Emergency Operating Guidelines This document defines emergency procedures for the factory floor. It applies in addition to, not instead of, the Preventive Maintenance SOP. Section 1: Emergency Stop Procedure Any operator may trigger an emergency stop on any machine showing visible smoke, a burning smell, unusual grinding or screeching noise, or any sensor reading at DANGER level combined with a physical warning sign. Press the red emergency stop button at the machine control panel, then notify the shift supervisor immediately. Do not attempt to restart the machine until",
+    "metadata": {
+      "word_count": 90
+    }
+  },
+  {
+    "chunk_id": "chunk_0017",
+    "document": "safety_emergency_guidelines.pdf",
+    "page": 1,
+    "section": "Section 3: Personal Protective Equipment",
+    "text": "button at the machine control panel, then notify the shift supervisor immediately. Do not attempt to restart the machine until it has been inspected and cleared by a qualified maintenance technician. Section 2: Lockout-Tagout (LOTO) Before any maintenance technician performs physical work on a machine that has been stopped for a DANGER-level event, the machine's energy source must be isolated and tagged (lockout-tagout) so it cannot be re-energized until the work is complete and the tag is removed by the technician who applied it. Section 3: Personal Protective Equipment Safety",
+    "metadata": {
+      "word_count": 90
+    }
+  },
+  {
+    "chunk_id": "chunk_0018",
+    "document": "safety_emergency_guidelines.pdf",
+    "page": 1,
+    "section": "Section 4: Incident Reporting",
+    "text": "work is complete and the tag is removed by the technician who applied it. Section 3: Personal Protective Equipment Safety glasses and hearing protection are required within two meters of any running CNC or Press machine. Heat-resistant gloves are required when working near an Injection Molder due to elevated operating temperature. Section 4: Incident Reporting Every emergency stop event must be recorded within 24 hours with: machine ID, timestamp, operator name, description of the triggering condition, and the maintenance action taken. This record feeds into the maintenance-note dataset used for",
+    "metadata": {
+      "word_count": 90
+    }
+  },
+  {
+    "chunk_id": "chunk_0019",
+    "document": "safety_emergency_guidelines.pdf",
+    "page": 1,
+    "section": "Section 4: Incident Reporting",
+    "text": "name, description of the triggering condition, and the maintenance action taken. This record feeds into the maintenance-note dataset used for incident classification.",
+    "metadata": {
+      "word_count": 22
+    }
+  }
+]

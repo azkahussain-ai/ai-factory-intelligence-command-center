@@ -1,0 +1,56 @@
+[
+  {
+    "machine_id": "M-01",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.9402081797194686,
+    "cv_source_image": "data/synthetic/images/defect_040.png",
+    "nlp_prediction": "Mechanical",
+    "nlp_confidence": 0.6475830793199037,
+    "nlp_source_timestamp": "2026-07-22 18:00:00"
+  },
+  {
+    "machine_id": "M-02",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.8592312256230888,
+    "cv_source_image": "data/synthetic/images/defect_041.png",
+    "nlp_prediction": "Scheduled",
+    "nlp_confidence": 0.6174724729939316,
+    "nlp_source_timestamp": "2026-07-19 19:00:00"
+  },
+  {
+    "machine_id": "M-03",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.6980263817098847,
+    "cv_source_image": "data/synthetic/images/defect_042.png",
+    "nlp_prediction": "Scheduled",
+    "nlp_confidence": 0.6882036986621867,
+    "nlp_source_timestamp": "2026-07-17 06:00:00"
+  },
+  {
+    "machine_id": "M-04",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.9899109765402845,
+    "cv_source_image": "data/synthetic/images/defect_049.png",
+    "nlp_prediction": "Scheduled",
+    "nlp_confidence": 0.6170221921150939,
+    "nlp_source_timestamp": "2026-07-28 17:00:00"
+  },
+  {
+    "machine_id": "M-05",
+    "cv_prediction": "normal",
+    "cv_confidence": 0.9771627400840421,
+    "cv_source_image": "data/synthetic/images/defect_044.png",
+    "nlp_prediction": "Mechanical",
+    "nlp_confidence": 0.6422200417625501,
+    "nlp_source_timestamp": "2026-07-20 18:00:00"
+  },
+  {
+    "machine_id": "M-06",
+    "cv_prediction": "defect",
+    "cv_confidence": 0.9880667743478003,
+    "cv_source_image": "data/synthetic/images/defect_039.png",
+    "nlp_prediction": "Scheduled",
+    "nlp_confidence": 0.6718745057082178,
+    "nlp_source_timestamp": "2026-07-29 12:00:00"
+  }
+]
